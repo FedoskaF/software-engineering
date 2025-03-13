@@ -18,13 +18,13 @@ workspace {
             group "Хранение данных" {
                 db_project = container "База данных проектов" {
                     description "Хранение данных о проектах и задачах" 
-                    technology "MongoDB"
+                    technology "PostgreSQL"
                     tags "database"
                 }
                 
                 db_user = container "База данных пользователей" {
                     description "Хранение данных о пользователях" 
-                    technology "PostqreSQL"
+                    technology "PostgreSQL"
                     tags "database"
                 }
             }
