@@ -22,7 +22,10 @@
 
 
 ### Используемые технологии
-- пока никаких
+- Python
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
 
-## Как использовать
-- пока никак
+## Запуск
+```docker compose up --build```
