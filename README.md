@@ -26,6 +26,8 @@
 - FastAPI
 - PostgreSQL
 - SQLAlchemy
+- MongoDB
+- Redis
 
 ## Запуск
 ```docker compose up --build```
